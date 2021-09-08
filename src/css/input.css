@@ -7,11 +7,11 @@
 .card-js .name-wrapper,
 .card-js .expiry-wrapper,
 .card-js .cvc-wrapper {
-  -webkit-box-shadow:0 1px 0 rgba(255,255,255,0.7),inset 0 1px 0 rgba(255,255,255,0.7);
+/*  -webkit-box-shadow:0 1px 0 rgba(255,255,255,0.7),inset 0 1px 0 rgba(255,255,255,0.7);
   -moz-box-shadow:0 1px 0 rgba(255,255,255,0.7),inset 0 1px 0 rgba(255,255,255,0.7);
   -ms-box-shadow:0 1px 0 rgba(255,255,255,0.7),inset 0 1px 0 rgba(255,255,255,0.7);
   -o-box-shadow: 0 1px 0 rgba(255,255,255,0.7),inset 0 1px 0 rgba(255,255,255,0.7);
-  box-shadow:0 1px 0 rgba(255,255,255,0.7),inset 0 1px 0 rgba(255,255,255,0.7);
+  box-shadow:0 1px 0 rgba(255,255,255,0.7),inset 0 1px 0 rgba(255,255,255,0.7);*/
 
   position: relative;
 }

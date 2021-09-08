@@ -4,8 +4,8 @@
   position: absolute;
   display: block;
   right: 8px;
-  top: 7px;
-  background: url("https://cardjs.co.uk/img/cards.png") no-repeat 0px 23px;
+  top: 10px;
+  background: url("../../img/cards.png") no-repeat 0px 23px;
   pointer-events: none;
   opacity: 0;
 
