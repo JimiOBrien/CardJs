@@ -1,6 +1,6 @@
 {
   "name": "jimiobrien/cardjs",
-  "description": "Composerized customised version of CardJs",
+  "description": "Customised version of CardJs, replacing $ with jQuery so other libraries can be used. Card autofill functions have been addresse",
   "minimum-stability": "stable",
   "license": "proprietary",
   "authors": [
