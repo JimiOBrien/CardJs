@@ -1,0 +1,14 @@
+{
+  "name": "jimiobrien/cardjs",
+  "description": "Composerized customised version of CardJs",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "jamesobrien",
+      "email": "james@blackletter.london"
+    }
+  ],
+  "require": {
+  }
+}
