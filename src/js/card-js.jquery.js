@@ -1,4 +1,4 @@
-(function($) {
+(function ($, Drupal) {
 
   var methods = {
     init: function() {
@@ -43,14 +43,23 @@
   };
 
 
-}(jQuery));
+  Drupal.behaviors.cardJs = {
+    attach: function (context, settings) {
+      $(".card-js").each(function (i, obj) {
+        $(obj).CardJs();
+      });
+    }
+  };
+
+
+})(jQuery, Drupal);
 
 
 //
 // Initialise for all elements with card-js class.
 //
-$(function() {
-  $(".card-js").each(function(i, obj) {
-    $(obj).CardJs();
-  });
-});
+//jQuery(function () {
+//  jQuery(".card-js").each(function (i, obj) {
+//    jQuery(obj).CardJs();
+//  });
+//});
